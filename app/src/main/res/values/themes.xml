@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MKS" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#569F53</item>
+        <item name="colorPrimaryVariant">#348E04</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#569F53</item>
+        <item name="colorSecondaryVariant">#348E04</item>
+        <item name="colorOnSecondary">#348E04</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#348E04</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="MyCardViewStyle">
+        <item name="cardBackgroundColor">#569F53</item>
+        <item name="android:outlineSpotShadowColor" tools:ignore="NewApi">@color/black</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_columnWeight">0</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">#569F53</item>
+        <item name="android:navigationBarColor">#569F53</item>
+    </style>
+
+</resources>

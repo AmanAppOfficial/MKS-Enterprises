@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658771714833",
+    "project_id": "mks-enterprises-hr",
+    "storage_bucket": "mks-enterprises-hr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658771714833:android:d211b8e06f52f07aaea2b0",
+        "android_client_info": {
+          "package_name": "e.hr.mks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658771714833-k5c83i656ag7msvshru1gu9p6h2toaa3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52cM87Ai_l6Ivk-9GmoxmmNX8STjsxrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658771714833-k5c83i656ag7msvshru1gu9p6h2toaa3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

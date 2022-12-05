@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.home_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/pie_chart_layout"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:columnOrderPreserved="true"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:cardBackgroundColor="@android:color/holo_red_dark"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    style="@style/MyCardViewStyle">
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:orientation="vertical"
+                       android:gravity="center"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:textAlignment="center"
+                           android:text="Rejected 75"
+                           android:gravity="center"
+                           android:textSize="20sp"
+                           android:textStyle="bold"
+                           android:textColor="@android:color/white"
+                           android:layout_height="wrap_content"/>
+                       <ImageButton
+                           android:layout_width="wrap_content"
+                           android:src="@drawable/next_icon"
+                           android:layout_marginTop="10dp"
+                           android:background="@android:color/transparent"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    style="@style/MyCardViewStyle">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Approved 25"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/next_icon"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    app:cardBackgroundColor="@android:color/holo_orange_dark"
+                    android:layout_columnWeight="2"
+                    android:layout_columnSpan="2"
+                    android:layout_height="120dp"
+                    style="@style/MyCardViewStyle">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Total 100"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/next_icon"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
